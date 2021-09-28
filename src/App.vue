@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <NovoComponente />
-    <TesteIf />
-    <TesteFor />
-    <TesteEvento />
-    <SitesFavoritos />
+    <Contador />
   </div>
 </template>
 
 <script>
-import NovoComponente from './components/NovoComponente.vue'
+import Contador from './components/Contador.vue'
+/*import NovoComponente from './components/NovoComponente.vue'
 import TesteIf from './components/TesteIf.vue'
 import TesteFor from './components/TesteFor.vue'
 import TesteEvento from './components/TesteEvento.vue'
-import SitesFavoritos from './components/SitesFavoritos.vue'
+import SitesFavoritos from './components/SitesFavoritos.vue'*/
 
 export default {
   name: 'App',
   components: {
-    NovoComponente,
+    Contador
+    /*NovoComponente,
     TesteIf,
     TesteFor,
     TesteEvento,
-    SitesFavoritos
+    SitesFavoritos*/
   }
 }
 
